@@ -1,0 +1,225 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  ========================================
+  Sticky Header
+  ========================================
+*/
+
+.sticky-header {
+  background-color: #ffffff;
+  height: 50px;
+  /* position: fixed; */
+  width: 100%;
+  border-bottom: 1px red dashed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-bar {
+  width: 30px;
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+}
+
+.menu-icon > .line {
+  background-color: #adadad;
+  height: 3px;
+  display: block;
+  border-radius: 1.5px;
+}
+.menu-icon > .line + .line {
+  margin-top: 5px;
+}
+
+.logo {
+  float: left;
+}
+
+.logo-style {
+  border-top: 4px solid #648880;
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  line-height: 13px;
+  padding: 15px 0 22px 0;
+}
+
+.q {
+  color: red;
+  font-size: 40px;
+}
+
+.costs {
+  background-color: #eeeeee;
+  padding: 15px;
+}
+
+.costs > .title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.boxes .box {
+  padding: 10px 23px 10px 23px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 18%;
+}
+
+.btn {
+  text-align: center;
+  margin-top: 20px;
+  background-color: #ffffff;
+  padding: 5px 0px 5px 0px;
+  border-radius: 5px;
+}
+
+.open {
+  padding: 10px;
+}
+
+.open > {
+
+}
