@@ -424,6 +424,7 @@ sup {
 .like {
   color: #ff5d27;
   text-decoration: underline;
+  font-weight: 900;
 }
 
 .pop {
