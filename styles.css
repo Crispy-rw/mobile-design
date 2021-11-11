@@ -216,6 +216,31 @@ sup {
   background-color: #ffffff;
   border-radius: 5px;
   width: 18%;
+  word-wrap: break-word;
+  line-height: normal;
+  color: #383838;
+}
+
+.separator {
+  display: flex;
+  flex-direction: row;
+  height: 10px;
+}
+
+.sep1 {
+}
+.sep2 {
+}
+.sep3 {
+}
+
+.boxes .box p {
+  font-size: small;
+  font-weight: bolder;
+}
+
+.boxes .box span {
+  font-size: 25px;
 }
 
 .btn {
@@ -231,11 +256,11 @@ sup {
 .card {
   padding: 0px 20px 0px 20px;
   margin-bottom: 10px;
-  border: 2px blue solid;
+  /* border: 2px blue solid; */
 }
 
 .card > .img {
-  border-top: 1px black solid;
+  border-top: 1px #cccccc solid;
   padding-top: 10px;
   height: 150px;
   width: 100%;
