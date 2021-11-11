@@ -128,6 +128,14 @@ table {
   border-spacing: 0;
 }
 
+body {
+  font-family: 'Helvetica';
+}
+
+sup {
+  vertical-align: super;
+  font-size: 10px;
+}
 /*
   ========================================
   Sticky Header
@@ -189,6 +197,8 @@ table {
 .costs > .title {
   text-align: center;
   padding-bottom: 20px;
+  letter-spacing: 1;
+  font-size: 20px;
 }
 
 .boxes {
@@ -212,13 +222,16 @@ table {
   text-align: center;
   margin-top: 20px;
   background-color: #ffffff;
-  padding: 5px 0px 5px 0px;
+  padding: 10px 0px 10px 0px;
   border-radius: 5px;
+  color: #ff5d27;
+  font-weight: bolder;
 }
 
 .card {
-  padding: 0px 10px 10px 10px;
-  margin-bottom: 20px;
+  padding: 0px 20px 0px 20px;
+  margin-bottom: 10px;
+  border: 2px blue solid;
 }
 
 .card > .img {
@@ -240,10 +253,113 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0px 25px 0px 25px;
+  padding: 0px 20px 0px 20px;
+}
+
+.card-sides > .type > span {
+  font-weight: bolder;
 }
 
 .card-sides p {
   margin-top: 2px;
   margin-bottom: 2px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 10px 0px 10px 0px;
+}
+
+.card-title > span {
+  font-weight: 200;
+}
+
+.card-subTitle {
+  font-weight: 100;
+  color: #333333;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #666666;
+}
+
+.price span {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.bar {
+  height: 10px;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+}
+
+.desc > .line {
+  font-size: 15px;
+  color: #797979;
+}
+
+.line > span {
+  font-weight: 900;
+  color: #666666;
+}
+
+.bg-btn {
+  background-color: #ff5d27;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  margin-top: 25px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #333333;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 70px;
+}
+
+.footer p {
+  text-align: center;
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.footer .small {
+  font-weight: 200;
+  font-size: 13px;
+}
+
+.footer-nav-bar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ff5d27;
+  color: white;
+  text-align: center;
+  height: 50px;
+  vertical-align: middle;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.footer-nav-bar p {
+  height: 100%;
+  padding-top: 10px;
+}
+
+.footer-nav-bar i {
+  height: 100%;
+  padding-top: 10px;
 }
