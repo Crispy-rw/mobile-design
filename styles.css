@@ -223,11 +223,19 @@ sup {
   color: #383838;
 }
 
+.supper {
+  position: relative;
+  top: -6px;
+  right: 1px;
+  color: #8d8a8a;
+}
+
 .separator {
   display: flex;
   flex-direction: row;
-  height: 15px;
+  height: 10px;
   margin-top: 15px;
+  border-radius: 10px;
 }
 
 .sep1 {
