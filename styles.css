@@ -455,5 +455,9 @@ sup {
   content: none;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1080px) {
+  .costs {
+    padding-left: 170px;
+    padding-right: 170px;
+  }
 }
