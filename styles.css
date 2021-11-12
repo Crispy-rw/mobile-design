@@ -465,4 +465,8 @@ sup {
     padding-left: 170px;
     padding-right: 170px;
   }
+
+  .nav-bar {
+    display: none;
+  }
 }
