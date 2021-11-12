@@ -276,7 +276,8 @@ sup {
 .card {
   padding: 0px 20px 0px 20px;
   margin-bottom: 10px;
-  /* border: 2px blue solid; */
+  width: 300px;
+  height: fit-content;
 }
 
 .card > .img {
@@ -451,4 +452,7 @@ sup {
 .pop ::content {
   padding-top: 50px;
   content: none;
+}
+
+@media screen and (min-width: 1000px) {
 }
