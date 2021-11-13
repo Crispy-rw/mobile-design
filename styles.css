@@ -277,7 +277,7 @@ sup {
 .card {
   padding: 0px 20px 0px 20px;
   margin-bottom: 10px;
-  width: 300px;
+  width: 350px;
   height: fit-content;
 }
 
@@ -458,13 +458,13 @@ sup {
 
 @media screen and (min-width: 1080px) {
   .costs {
-    padding-left: 170px;
-    padding-right: 170px;
+    padding-left: 130px;
+    padding-right: 130px;
   }
 
   .pop {
-    padding-left: 170px;
-    padding-right: 170px;
+    padding-left: 130px;
+    padding-right: 130px;
   }
 
   .nav-bar {
