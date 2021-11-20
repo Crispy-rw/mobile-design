@@ -277,7 +277,7 @@ sup {
 .card {
   padding: 0px 20px 0px 20px;
   margin-bottom: 10px;
-  width: 350px;
+  width: 300px;
   height: fit-content;
 }
 
@@ -456,6 +456,31 @@ sup {
   content: none;
 }
 
+.select {
+  padding: 15px 35px;
+  display: flex;
+  flex-direction: 'row';
+  justify-content: space-between;
+}
+
+.newtab {
+  background-color: #eeeeee;
+  padding: 7px 7px 7px 7px;
+  border-radius: 50%;
+  float: left;
+  margin-top: 3px;
+}
+
+.infro {
+  float: right;
+  font-size: 13px;
+  margin-left: 10px;
+  color: #666666;
+  font-weight: 200;
+  word-wrap: break-word;
+  margin-top: 10px;
+}
+
 @media screen and (min-width: 1080px) {
   .costs {
     padding-left: 130px;
@@ -469,5 +494,9 @@ sup {
 
   .nav-bar {
     display: none;
+  }
+  .select {
+    padding-left: 170px;
+    padding-right: 170px;
   }
 }
